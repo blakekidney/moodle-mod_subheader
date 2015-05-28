@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg3357" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="0.48.5 r10040" sodipodi:docname="icon.svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
+	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g>
+	<rect x="3.489" y="14.012" width="16.667" height="2"/>
+	<rect x="3.489" y="10.145" width="16.667" height="2"/>
+	<rect x="3.489" y="3.278" width="16.667" height="5"/>
+	<rect x="3.489" y="17.879" width="16.667" height="2"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="267.999" y1="-320.7998" x2="267.999" y2="-345.0005" gradientTransform="matrix(1 0 0 -1 -256 -321)">
+	<stop  offset="0" style="stop-color:#F5F5F5"/>
+	<stop  offset="1" style="stop-color:#A8A8A8"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M18.1-0.2H5.9c-3.3,0-6,2.7-6,6V18c0,3.3,2.7,6,6,6h12.2c3.301,0,6-2.7,6-6V5.8
+	C24.1,2.5,21.4-0.2,18.1-0.2L18.1-0.2z"/>
+<sodipodi:namedview  id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:zoom="22.627417" inkscape:cx="7.2480563" inkscape:cy="11.624032" showgrid="true" showborder="true" inkscape:grid-bbox="true" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:current-layer="layer1" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:window-width="1366" inkscape:window-height="727" inkscape:window-x="0" inkscape:window-y="19" inkscape:window-maximized="1">
+	<inkscape:grid  type="xygrid" empspacing="5" visible="true" enabled="true" id="grid4043" snapvisiblegridlinesonly="true">
+		</inkscape:grid>
+</sodipodi:namedview>
+<g>
+	<path fill="#FFFFFF" d="M10.584,6.766v4.833h4.682V6.766h2.838v12.576h-2.838V14.08h-4.682v5.262H7.73V6.766H10.584z"/>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="268.1006" y1="-344.9995" x2="268.1006" y2="-320.7998" gradientTransform="matrix(1 0 0 -1 -256 -321)">
+	<stop  offset="0" style="stop-color:#3F3F3F"/>
+	<stop  offset="1" style="stop-color:#131313"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" d="M18.2,1.3c2.481,0,4.5,2.019,4.5,4.5V18c0,2.48-2.019,4.5-4.5,4.5H6c-2.481,0-4.5-2.02-4.5-4.5V5.8
+	c0-2.481,2.019-4.5,4.5-4.5H18.2 M18.2-0.2H6c-3.3,0-6,2.7-6,6V18c0,3.3,2.7,6,6,6h12.2c3.3,0,6-2.7,6-6V5.8
+	C24.2,2.5,21.5-0.2,18.2-0.2L18.2-0.2z"/>
+<g>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="267.998" y1="-326.8452" x2="267.998" y2="-339.4214" gradientTransform="matrix(1 0 0 -1 -256 -321)">
+		<stop  offset="0" style="stop-color:#3F3F3F"/>
+		<stop  offset="1" style="stop-color:#080808"/>
+	</linearGradient>
+	<path fill="url(#SVGID_3_)" d="M9.667,5.845v4.833h4.683V5.845h2.836v12.576H14.35v-5.262H9.667v5.262H6.813V5.845H9.667z"/>
+</g>
+</svg>
