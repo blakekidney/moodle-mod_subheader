@@ -28,7 +28,7 @@ function subheader_supports($feature) {
 		case FEATURE_MOD_ARCHETYPE:           return MOD_ARCHETYPE_RESOURCE;  //Type of module
 		//yes
         case FEATURE_BACKUP_MOODLE2:          return true;		//True if module supports backup/restore of moodle2 format
-        case FEATURE_NO_VIEW_LINK:            return true;		//True if module has no 'view' page
+        case FEATURE_NO_VIEW_LINK:            return false;		//True if module has no 'view' page
 		//no
         case FEATURE_MOD_INTRO:               return false;		//True if module supports intro editor
 		case FEATURE_IDNUMBER:                return false;		//True if module supports outcomes	
@@ -158,8 +158,7 @@ function subheader_get_coursemodule_info($coursemodule) {
         return NULL;
     }
     $info = new cached_cm_info();
-    $info->name = $info->content = $subheader->name;
-	$info->content = "this is a test.";
+	$info->name = $subheader->name;
 	
     return $info;
 }
@@ -168,7 +167,7 @@ function subheader_get_coursemodule_info($coursemodule) {
 /**
  * Called when viewing course page. Adds information to the course-module object.
  *
- * @see: /lin/modinfolib.php  class cm_info
+ * @see: /lib/modinfolib.php  class cm_info
  *
  * Allowed methods:
  * - {@link cm_info::set_after_edit_icons()}
@@ -179,7 +178,10 @@ function subheader_get_coursemodule_info($coursemodule) {
  * @param cm_info $cm Course-module object
  */
 function subheader_cm_info_view(cm_info $cm) {
-	$cm->set_content($cm->name);
+	global $PAGE;
+	if(!$PAGE->user_is_editing()) {
+		$cm->set_content('<h4>'.$cm->name.'</h4>');
+	}	
 }
 /**
  * Adds information to the course-module object.
@@ -195,5 +197,13 @@ function subheader_cm_info_view(cm_info $cm) {
  * @param cm_info $cm Course-module object
  */
 function subheader_cm_info_dynamic(cm_info $cm) {
-    
+	global $PAGE;
+	//We want to keep the editing capability so that we can have the inline editing button
+	if(!$PAGE->user_is_editing()) {
+		//don't show the link if we are not editing
+		$cm->set_no_view_link();
+	} else {
+		//hide the icon
+		$cm->set_icon_url(new moodle_url(''));
+	}
 }
