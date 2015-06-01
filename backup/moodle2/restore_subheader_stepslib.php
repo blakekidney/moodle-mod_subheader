@@ -44,11 +44,11 @@ class restore_subheader_activity_structure_step extends restore_activity_structu
         $oldid = $data->id;
         $data->course = $this->get_courseid();
 
-        if (empty($data->timecreated)) {
+        if(empty($data->timecreated)) {
             $data->timecreated = time();
         }
 
-        if (empty($data->timemodified)) {
+        if(empty($data->timemodified)) {
             $data->timemodified = time();
         }
 
@@ -61,6 +61,6 @@ class restore_subheader_activity_structure_step extends restore_activity_structu
      * Post-execution actions
      */
     protected function after_execute() {
-        
+
     }
 }

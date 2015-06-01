@@ -1,31 +1,35 @@
 .subheader .no-overflow { overflow:visible !important; }
-.course-content li.subheader {
+.course-content .section li.subheader {
 	padding:4px 12px;
 	background-color:#cb6d20;
 	margin-top:30px;
 	margin-bottom:15px;
 }
-.course-content li.subheader:first-child {
+.course-content .section li.subheader:first-child {
 	margin-top:0;
 }
-.course-content li.subheader h4,
-body.editing .course-content li.subheader .instancename { 
+.course-content .section li.subheader h4,
+body.editing .course-content .section li.subheader .instancename { 
 	margin:0; 
 	font-size:22px;
 	line-height:24px;
 	font-weight:normal;
 	color: white;
 }
-body.editing .section li.subheader.activity:hover .instancename, 
-body.editing .section li.subheader.activity.action-menu-shown .instancename {
+body.editing .course-content .section li.subheader.activity:hover .instancename, 
+body.editing .course-content .section li.subheader.activity.action-menu-shown .instancename {
 	color:#333;
 }
-body.editing .course-content li.subheader .instancename {
+body.editing .course-content .section li.subheader .instancename {
 	font-size:20px;
 }
-body.editing .course-content li.subheader .activityinstance > a {	
+body.editing .course-content .section li.subheader .activityinstance > a {	
 	/* Disable View Link - We only have it to enable the edit button */
 	pointer-events: none !important;
 	cursor: default !important;
 	text-decoration:none !important;
 }
+body.editing .section li.activitytypeheader .subheader > a > img.activityicon {
+	display:none !important;
+}
+

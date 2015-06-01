@@ -32,7 +32,7 @@ class backup_subheader_activity_structure_step extends backup_activity_structure
 
         // Define the root element describing the subheader instance.
         $subheader = new backup_nested_element('subheader', array('id'), array(
-            'subheader', 'timemodified'));
+            'name', 'intro', 'introformat', 'timemodified'));
 
         // If we had more elements, we would build the tree here.
 
