@@ -14,6 +14,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['modulename'] = 'SubHeader';
 $string['modulenameplural'] = 'SubHeaders';
+$string['subheader:addinstance'] = 'Add a new subheader';
+$string['subheader:view'] = 'View subheader';
 $string['modulename_help'] = 'Use the SubHeader module for adding a subheader into a topic.';
 $string['subheadername'] = 'SubHeader';
 $string['subheadername_help'] = 'Use the SubHeader module for adding a subheader into a topic.';

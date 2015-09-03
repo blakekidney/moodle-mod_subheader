@@ -34,7 +34,7 @@ function subheader_supports($feature) {
 		case FEATURE_IDNUMBER:                return false;		//True if module supports outcomes	
         case FEATURE_GROUPS:                  return false;		//True if module supports groups
         case FEATURE_GROUPINGS:               return false;		//True if module supports groupings
-        case FEATURE_COMPLETION_TRACKS_VIEWS: return false;		//True if module supports groupmembersonly
+        case FEATURE_COMPLETION_TRACKS_VIEWS: return false;		//True if module can support completion 'on view'
         case FEATURE_GRADE_HAS_GRADE:         return false;		//True if module can provide a grade
         case FEATURE_GRADE_OUTCOMES:          return false;		//True if module supports outcomes
         case FEATURE_SHOW_DESCRIPTION:        return false;		//True if module can show description on course main page
